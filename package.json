@@ -1,42 +1,44 @@
 {
-  "name": "react-native-spinner-screen-overlay",
-  "version": "1.0.2",
-  "description": "Screen overlay to block UI with a spinner.",
-  "main": "lib/index.js",
-  "files": [
-    "lib/*",
-    "README.md",
-    "LICENSE",
-    "package.json"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "node node_modules/eslint/bin/eslint.js src/**/*.js --fix",
-    "prettier": "prettier babel.config.js .eslintrc.js .prettierrc.js src/**/*.js --write",
-    "lint": "npm run prettier && npm run eslint",
-    "build": "npm run lint && node build.js"
+  "_from": "react-native-spinner-screen-overlay@^1.0.2",
+  "_id": "react-native-spinner-screen-overlay@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-4zAdMGppdYQ0d2fVgfzHLeW31KSEpi/f86mRM7VLQeHQZu+mq8BzG33exDmONV/lYY5/aIMIfLiFLpAiyJWhvA==",
+  "_location": "/react-native-spinner-screen-overlay",
+  "_phantomChildren": {
+    "loose-envify": "1.4.0",
+    "object-assign": "4.1.1",
+    "prop-types": "15.7.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/aprilmintacpineda/react-native-spinner-screen-overlay.git"
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-spinner-screen-overlay@^1.0.2",
+    "name": "react-native-spinner-screen-overlay",
+    "escapedName": "react-native-spinner-screen-overlay",
+    "rawSpec": "^1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.2"
   },
-  "keywords": [
-    "react-native",
-    "screen-overlay",
-    "overlay",
-    "block-ui",
-    "block-screen"
+  "_requiredBy": [
+    "/"
   ],
-  "author": "April Mintac Pineda",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/react-native-spinner-screen-overlay/-/react-native-spinner-screen-overlay-1.0.2.tgz",
+  "_shasum": "6e3d1ef7262068d8c6af97c52359268137035922",
+  "_spec": "react-native-spinner-screen-overlay@^1.0.2",
+  "_where": "/Users/genki_sato/Sato/mnx/yourbank_front/yourbank_front",
+  "author": {
+    "name": "April Mintac Pineda"
+  },
   "bugs": {
     "url": "https://github.com/aprilmintacpineda/react-native-spinner-screen-overlay/issues"
   },
-  "homepage": "https://github.com/aprilmintacpineda/react-native-spinner-screen-overlay#readme",
+  "bundleDependencies": false,
   "dependencies": {
     "react": "^16.8.6",
     "react-native": "^0.59.8"
   },
+  "deprecated": false,
+  "description": "Screen overlay to block UI with a spinner.",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
@@ -46,5 +48,34 @@
     "eslint-plugin-flowtype": "^3.8.2",
     "eslint-plugin-react": "^7.13.0",
     "prettier": "^1.17.0"
-  }
+  },
+  "files": [
+    "lib/*",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "homepage": "https://github.com/aprilmintacpineda/react-native-spinner-screen-overlay#readme",
+  "keywords": [
+    "react-native",
+    "screen-overlay",
+    "overlay",
+    "block-ui",
+    "block-screen"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "react-native-spinner-screen-overlay",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aprilmintacpineda/react-native-spinner-screen-overlay.git"
+  },
+  "scripts": {
+    "build": "npm run lint && node build.js",
+    "eslint": "node node_modules/eslint/bin/eslint.js src/**/*.js --fix",
+    "lint": "npm run prettier && npm run eslint",
+    "prettier": "prettier babel.config.js .eslintrc.js .prettierrc.js src/**/*.js --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
 }
