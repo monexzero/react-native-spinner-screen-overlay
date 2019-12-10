@@ -34,8 +34,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-native": "^0.59.8"
+    "react": "^16.8.6"
   },
   "deprecated": false,
   "description": "Screen overlay to block UI with a spinner.",
